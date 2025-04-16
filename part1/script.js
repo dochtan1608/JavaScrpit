@@ -28,3 +28,33 @@ console.log(job2);
 console.log(chi_tan);
 console.log($function);
 console.log("Num of PI = " + PI);
+
+let iLoveVietnam = true;
+if (iLoveVietnam === true) {
+  console.log("I love Vietnam");
+} else {
+  console.log("I don't love Vietnam");
+}
+console.log(typeof iLoveVietnam);
+console.log(typeof myFirstJob);
+console.log(typeof population);
+console.log(typeof country);
+console.log(typeof js);
+console.log(typeof PI);
+console.log(typeof $function);
+console.log(typeof chi_tan);
+
+iLoveVietnam = "YES";
+console.log(iLoveVietnam);
+
+let year;
+console.log(year);
+console.log(typeof year);
+
+year = 2025;
+console.log(year);
+console.log(typeof year);
+year = "2025";
+console.log(year);
+console.log(typeof year);
+console.log(typeof null);
