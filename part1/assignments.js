@@ -23,3 +23,26 @@ const country = "Vietnam";
 const continent = "Asia";
 const isIsland = false;
 console.log(isIsland);
+console.log("===========================");
+// ==============================================================================
+//assignment operators
+population /= 2;
+population++;
+console.log(population);
+const populationFinland = 6000000;
+const morethanFinland = population > populationFinland;
+console.log(morethanFinland);
+const avaragePopulation = 33000000;
+const populationLessThanAvarage = population < avaragePopulation;
+console.log(populationLessThanAvarage);
+const description =
+  country +
+  " is in " +
+  continent +
+  " and its " +
+  population +
+  " milion people speak " +
+  languauge;
+console.log(description);
+// =============================================================================
+console.log("===========================");

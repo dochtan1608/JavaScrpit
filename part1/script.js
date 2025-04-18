@@ -69,3 +69,21 @@ const birthYear = 1991;
 var job = "programmer";
 job = "coder";
 console.log(job);
+
+// basic operators
+const dayBirth = 16;
+const monthBirth = 8;
+const yearBirth = 2001;
+const realBirthYear = dayBirth + "/" + monthBirth + "/" + yearBirth;
+const myFirstName = "Doan";
+const myLastName = "Chi Tan";
+const myFullName = myFirstName + " " + myLastName;
+console.log(
+  "Hey, my name is " + myFullName + " and I was born on " + realBirthYear
+);
+let x = 10 + 5; // 15
+x += 10; // 25
+x /= 5; // 5
+x *= 20; // 100
+x++;
+console.log(x);
