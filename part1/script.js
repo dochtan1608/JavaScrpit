@@ -87,3 +87,12 @@ x /= 5; // 5
 x *= 20; // 100
 x++;
 console.log(x);
+
+let y, z;
+y = z = 25 - 10 - 9; // y = 6, z = 6
+console.log(y, z);
+
+const myAge = 24;
+const yourAge = 30;
+const averageAge = (myAge + yourAge) / 2;
+console.log(averageAge);
