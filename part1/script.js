@@ -58,3 +58,14 @@ year = "2025";
 console.log(year);
 console.log(typeof year);
 console.log(typeof null);
+
+//let, const, var
+let age = 30;
+age = 32;
+console.log(age);
+
+const birthYear = 1991;
+
+var job = "programmer";
+job = "coder";
+console.log(job);
