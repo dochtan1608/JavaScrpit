@@ -46,3 +46,6 @@ const description =
 console.log(description);
 // =============================================================================
 console.log("===========================");
+const descriptionUpdate = `${country} is in ${continent} and its ${population} milion people speak ${languauge}`;
+console.log(descriptionUpdate);
+// =============================================================================
