@@ -96,3 +96,40 @@ const myAge = 24;
 const yourAge = 30;
 const averageAge = (myAge + yourAge) / 2;
 console.log(averageAge);
+
+const realHo = "Doan";
+const realTen = "Chi Tan";
+const realHoTen = realHo + " " + realTen; // Ho va ten
+const realNamSinh = 2001;
+const realNamHienTai = 2025;
+const realTuoi = realNamHienTai - realNamSinh; // Tuoi hien tai
+const realBirthPlace = "Vinh Long"; // Noi sinh
+
+const realCurrentPlace = "HCM"; // Noi o hien tai
+const realInformation =
+  "Xin chao cac ban, minh la " +
+  realHoTen +
+  ", sinh nam " +
+  realNamSinh +
+  ", hien tai " +
+  realTuoi +
+  " tuoi, sinh ra o " +
+  realBirthPlace +
+  ", hien dang o " +
+  realCurrentPlace;
+const realInformationUpdate = `Hello everyone, my name is ${realHoTen}, I was born in ${realNamSinh}, I am ${realTuoi} years old, I was born in ${realBirthPlace}, and I am currently living in ${realCurrentPlace}`;
+console.log(realInformation); // log ra thong tin using normial string
+console.log(realInformationUpdate); // log ra thong tin using template string
+
+console.log(
+  "Day la \n\
+cach \n\
+thong thuong"
+); // day la cach thong thuong de in ra string
+
+console.log(
+  `This is
+a different
+way to
+write a string`
+); // day la cach toi uu de in ra string
