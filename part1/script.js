@@ -133,3 +133,19 @@ a different
 way to
 write a string`
 ); // day la cach toi uu de in ra string
+
+const tuoicuaAiDo = 17;
+const duTuoi = tuoicuaAiDo >= 18;
+if (duTuoi === true) {
+  console.log("Ban da du tuoi la xe");
+} else {
+  console.log("Ban chua du tuoi la xe");
+}
+
+let century;
+if (realNamSinh <= 2000) {
+  century = 20;
+} else {
+  century = 21;
+}
+console.log(century);
