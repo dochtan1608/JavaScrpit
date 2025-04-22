@@ -149,3 +149,4 @@ if (realNamSinh <= 2000) {
   century = 21;
 }
 console.log(century);
+console.log("just in case");
